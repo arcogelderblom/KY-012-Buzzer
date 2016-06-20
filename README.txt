@@ -1,0 +1,1 @@
+This library is made for the KY-012 buzzer and uses a hwlib library made by Wouter van Ooijen and is used under the BOOST license

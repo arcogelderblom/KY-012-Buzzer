@@ -1,0 +1,70 @@
+\hypertarget{classbuzzer}{}\section{buzzer Class Reference}
+\label{classbuzzer}\index{buzzer@{buzzer}}
+
+
+Buzzer class.  
+
+
+
+
+{\ttfamily \#include $<$buzzer.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classbuzzer_a5eb2b5600376f7e3a3a4771d63960f39}{buzzer} (due\+::pin\+\_\+out port\+\_\+out)
+\begin{DoxyCompactList}\small\item\em Constructor buzzer. \end{DoxyCompactList}\item 
+void \hyperlink{classbuzzer_a22f25eded61d7d1a32d4a458fc619b17}{sound} (int speed)
+\begin{DoxyCompactList}\small\item\em Sound function. \end{DoxyCompactList}\item 
+void \hyperlink{classbuzzer_abdf8faa866dea35de408ba4d4b1b003b}{clear} ()
+\begin{DoxyCompactList}\small\item\em Clear function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Buzzer class. 
+
+This class sets everything up for the use of a K\+Y-\/012 active buzzer and makes sure it is possible to use it to make sounds 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{buzzer@{buzzer}!buzzer@{buzzer}}
+\index{buzzer@{buzzer}!buzzer@{buzzer}}
+\subsubsection[{\texorpdfstring{buzzer(due\+::pin\+\_\+out port\+\_\+out)}{buzzer(due::pin_out port_out)}}]{\setlength{\rightskip}{0pt plus 5cm}buzzer\+::buzzer (
+\begin{DoxyParamCaption}
+\item[{due\+::pin\+\_\+out}]{port\+\_\+out}
+\end{DoxyParamCaption}
+)}\hypertarget{classbuzzer_a5eb2b5600376f7e3a3a4771d63960f39}{}\label{classbuzzer_a5eb2b5600376f7e3a3a4771d63960f39}
+
+
+Constructor buzzer. 
+
+Initializes the buzzer, sets the port\+\_\+out. 
+
+\subsection{Member Function Documentation}
+\index{buzzer@{buzzer}!clear@{clear}}
+\index{clear@{clear}!buzzer@{buzzer}}
+\subsubsection[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void buzzer\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classbuzzer_abdf8faa866dea35de408ba4d4b1b003b}{}\label{classbuzzer_abdf8faa866dea35de408ba4d4b1b003b}
+
+
+Clear function. 
+
+Totally cancels all sounds the buzzer makes. \index{buzzer@{buzzer}!sound@{sound}}
+\index{sound@{sound}!buzzer@{buzzer}}
+\subsubsection[{\texorpdfstring{sound(int speed)}{sound(int speed)}}]{\setlength{\rightskip}{0pt plus 5cm}void buzzer\+::sound (
+\begin{DoxyParamCaption}
+\item[{int}]{speed}
+\end{DoxyParamCaption}
+)}\hypertarget{classbuzzer_a22f25eded61d7d1a32d4a458fc619b17}{}\label{classbuzzer_a22f25eded61d7d1a32d4a458fc619b17}
+
+
+Sound function. 
+
+Let’s the buzzer make sound. The speed integer is nessecary for a certain ‘wait’, because of this it is possible to call it multiple of times and get a predetermined frequency of sound. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{buzzer_8hpp}{buzzer.\+hpp}\item 
+buzzer.\+cpp\end{DoxyCompactItemize}
